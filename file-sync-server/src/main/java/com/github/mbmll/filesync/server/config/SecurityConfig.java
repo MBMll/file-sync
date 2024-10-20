@@ -1,6 +1,6 @@
 package com.github.mbmll.filesync.server.config;
 
-import com.pinggao.pg.web.pgfile.properties.ConfigProperties;
+import com.github.mbmll.filesync.server.properties.ConfigProperties;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Configuration;

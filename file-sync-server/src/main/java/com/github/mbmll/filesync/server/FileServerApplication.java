@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @Description
  * @Date 2024/10/13 00:40:03
  */
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = "com.github.mbmll.filesync")
 public class FileServerApplication {
     public static void main(String[] args) {
         SpringApplication.run(FileServerApplication.class, args);
